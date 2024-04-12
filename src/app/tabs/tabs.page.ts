@@ -13,5 +13,4 @@ export class TabsPage {
    public setCurrentTab(ev: any){
     this.current_tab = ev.tab;
   }
-
 }
