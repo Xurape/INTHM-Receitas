@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-tabs',
@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
+  current_tab = "inicio";
 
   constructor() {}
+
+   public setCurrentTab(ev: any){
+    this.current_tab = ev.tab;
+  }
 
 }

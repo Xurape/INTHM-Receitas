@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
-/** Ionic CSS Variables **/
+/************ Fonts ************/
+
+
+/************ Colors ************/
+
 :root {
+  --ion-default-dynamic-font: "Nunito Sans", sans-serif;
+  --ion-font-family: "Nunito Sans", sans-serif;
+  --ion-background-color: var(--ion-color-app_background);
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +84,48 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** app_primary **/
+	--ion-color-app_primary: #F07A3E;
+	--ion-color-app_primary-rgb: 240,122,62;
+	--ion-color-app_primary-contrast: #000000;
+	--ion-color-app_primary-contrast-rgb: 0,0,0;
+	--ion-color-app_primary-shade: #d36b37;
+	--ion-color-app_primary-tint: #f28751;
+
+  /** app_background **/
+	--ion-color-app_background: #FFFAF0;
+	--ion-color-app_background-rgb: 255,250,240;
+	--ion-color-app_background-contrast: #000000;
+	--ion-color-app_background-contrast-rgb: 0,0,0;
+	--ion-color-app_background-shade: #e0dcd3;
+	--ion-color-app_background-tint: #fffbf2;
+
+  /** app_darker_background **/
+  --ion-color-app_darker_background: #FFF2D8;
+  --ion-color-app_darker_background-rgb: 255,242,216;
+  --ion-color-app_darker_background-contrast: #000000;
+  --ion-color-app_darker_background-contrast-rgb: 0,0,0;
+  --ion-color-app_darker_background-shade: #e0d5be;
+  --ion-color-app_darker_background-tint: #fff3dc;
+
+  /** app_dark **/
+  --ion-color-app_dark: #5E5E5E;
+	--ion-color-app_dark-rgb: 94,94,94;
+	--ion-color-app_dark-contrast: #ffffff;
+	--ion-color-app_dark-contrast-rgb: 255,255,255;
+	--ion-color-app_dark-shade: #535353;
+	--ion-color-app_dark-tint: #6e6e6e;
+}
+
+/*
+* Some bug fixes
+* -------------------------------------------
+* Remover o box-shadow do header-md
+*/
+.header-md {
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -145,6 +197,27 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    --ion-color-app_background: #1D1D1B;
+    --ion-color-app_background-rgb: 29,29,27;
+    --ion-color-app_background-contrast: #ffffff;
+    --ion-color-app_background-contrast-rgb: 255,255,255;
+    --ion-color-app_background-shade: #1a1a18;
+    --ion-color-app_background-tint: #343432;
+
+    --ion-color-app_darker_background: #272725;
+    --ion-color-app_darker_background-rgb: 39,39,37;
+    --ion-color-app_darker_background-contrast: #ffffff;
+    --ion-color-app_darker_background-contrast-rgb: 255,255,255;
+    --ion-color-app_darker_background-shade: #222221;
+    --ion-color-app_darker_background-tint: #3d3d3b;
+
+    --ion-color-app_dark: #D8D8D8;
+    --ion-color-app_dark-rgb: 216,216,216;
+    --ion-color-app_dark-contrast: #000000;
+    --ion-color-app_dark-contrast-rgb: 0,0,0;
+    --ion-color-app_dark-shade: #bebebe;
+    --ion-color-app_dark-tint: #dcdcdc;
   }
 
   /*
@@ -153,7 +226,7 @@
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: var(--ion-color-app_background);
     --ion-background-color-rgb: 0,0,0;
 
     --ion-text-color: #ffffff;
@@ -197,8 +270,8 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
-    --ion-background-color-rgb: 18,18,18;
+    --ion-background-color: var(--ion-color-app_background);
+    --ion-background-color-rgb: var(--ion-color-app_background-rgb);
 
     --ion-text-color: #ffffff;
     --ion-text-color-rgb: 255,255,255;
@@ -227,18 +300,56 @@
 
     --ion-item-background: #1e1e1e;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: var(--ion-color-app_background);
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-tab-bar-background: var(--ion-color-app_darker_background);
 
     --ion-card-background: #1e1e1e;
   }
 }
 
+.ion-color-app_primary {
+  --ion-color-base: var(--ion-color-app_primary);
+  --ion-color-base-rgb: var(--ion-color-app_primary-rgb);
+  --ion-color-contrast: var(--ion-color-app_primary-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-app_primary-contrast-rgb);
+  --ion-color-shade: var(--ion-color-app_primary-shade);
+  --ion-color-tint: var(--ion-color-app_primary-tint);
+}
+
+.ion-color-app_background {
+	--ion-color-base: var(--ion-color-app_background);
+	--ion-color-base-rgb: var(--ion-color-app_background-rgb);
+	--ion-color-contrast: var(--ion-color-app_background-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-app_background-contrast-rgb);
+	--ion-color-shade: var(--ion-color-app_background-shade);
+	--ion-color-tint: var(--ion-color-app_background-tint);
+}
+
+.ion-color-app_darker_background {
+	--ion-color-base: var(--ion-color-app_darker_background);
+	--ion-color-base-rgb: var(--ion-color-app_darker_background-rgb);
+	--ion-color-contrast: var(--ion-color-app_darker_background-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-app_darker_background-contrast-rgb);
+	--ion-color-shade: var(--ion-color-app_darker_background-shade);
+	--ion-color-tint: var(--ion-color-app_darker_background-tint);
+}
+
+.ion-color-app_dark {
+  --ion-color-base: var(--ion-color-app_dark);
+  --ion-color-base-rgb: var(--ion-color-app_dark-rgb);
+  --ion-color-contrast: var(--ion-color-app_dark-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-app_dark-contrast-rgb);
+  --ion-color-shade: var(--ion-color-app_dark-shade);
+  --ion-color-tint: var(--ion-color-app_dark-tint);
+}
+
+/************ Outros ************/
+
 html {
   /* 
-   * For more information on dynamic font scaling, visit the documentation:
-   * https://ionicframework.com/docs/layout/dynamic-font-scaling
-   */
+  * For more information on dynamic font scaling, visit the documentation:
+  * https://ionicframework.com/docs/layout/dynamic-font-scaling
+  */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
 }

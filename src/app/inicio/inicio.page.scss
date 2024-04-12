@@ -1,0 +1,56 @@
+/** Some variables to assist me **/
+.bold {
+    font-weight: bolder;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+/** Page-related **/
+
+.app_name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--ion-color-app_dark);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.app_name span {
+    color: var(--ion-color-app_primary);
+}
+
+.cook_1 {
+    width: 80%;
+    height: 100%;
+}
+
+.welcome_text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--ion-color-app_dark);
+    text-align: center;
+}
+
+.receipts {
+    padding-left: 1.3rem;
+    padding-right: 1.7rem;
+    width: 100%;
+}
