@@ -17,6 +17,10 @@ const routes: Routes = [
         loadChildren: () => import('../receitas/receitas.module').then(m => m.ReceitasPageModule)
       },
       {
+        path: 'receitas/:id',
+        loadChildren: () => import('../receitas-detalhe/receitas-detalhe.module').then(m => m.ReceitasDetalhePageModule)
+      },
+      {
         path: 'historia',
         loadChildren: () => import('../historia/historia.module').then(m => m.HistoriaPageModule)
       },

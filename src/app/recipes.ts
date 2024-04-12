@@ -1,8 +1,9 @@
-export const receipts = [
+export const recipes = [
     {
+        id: "pao_com_chourico",
         name: 'Pão com chouriço',
         difficulty: "fácil",
-        image: import('../assets/img/receitas/pao_com_chourico.jpg'),
+        image: '../assets/img/receitas/pao_com_chourico.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
             "1 unidade de chouriço",
