@@ -54,3 +54,11 @@
     padding-right: 1.7rem;
     width: 100%;
 }
+
+/** text-related **/
+.overline {
+    font-size: 0.8rem;
+    font-weight: light;
+    color: var(--ion-color-app_dark);
+    letter-spacing: 0.01rem;
+}
