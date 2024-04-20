@@ -14,14 +14,11 @@ export class InicioPage implements OnInit {
 
   public getFirstThreeReceipts() {
     recipes.map((recipe, index) => {
-      if (index < 3) {
+      if (index < 3)
         this.local_recipes.push(recipe);
-      }
 
       return;
     });
-
-    console.log(this.local_recipes);
 
     return this.local_recipes;
   }

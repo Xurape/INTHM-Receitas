@@ -9,7 +9,7 @@
       </div>
       <div class="center">
         <ion-list class="receipts">
-          <ion-item button detail="true" *ngFor="let item of local_recipes" (click)="goToRecipe(item.id)">
+          <ion-item button detail="true" *ngFor="let item of local_recipes" router-direction="forward" routerLink="/receitas/{{item.id}}">
             <ion-avatar aria-hidden="true" slot="start">
               <img alt="" src={{item.image}} />
             </ion-avatar>
@@ -19,6 +19,7 @@
             </ion-label>
           </ion-item>
         </ion-list>
+        <ion-button color="app_primary" routerLink="/receitas" fill="outline" class="button">VER TODAS</ion-button>
       </div>
     </div>
   </div>

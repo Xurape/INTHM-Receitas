@@ -10,15 +10,10 @@ const routes: Routes = [
       {
         path: 'inicio',
         loadChildren: () => import('../inicio/inicio.module').then(m => m.InicioPageModule),
-        pathMatch: 'full'
       },
       {
         path: 'receitas',
         loadChildren: () => import('../receitas/receitas.module').then(m => m.ReceitasPageModule)
-      },
-      {
-        path: 'receitas/:id',
-        loadChildren: () => import('../receitas-detalhe/receitas-detalhe.module').then(m => m.ReceitasDetalhePageModule)
       },
       {
         path: 'historia',
@@ -27,6 +22,11 @@ const routes: Routes = [
       {
         path: 'sobre',
         loadChildren: () => import('../sobre/sobre.module').then(m => m.SobrePageModule)
+      },
+      {
+        path: '',
+        redirectTo: '/inicio',
+        pathMatch: 'full'
       }
     ]
   },

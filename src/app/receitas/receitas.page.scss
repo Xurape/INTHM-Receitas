@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
+
+.container {
+    margin-left: 1.3rem;  
+    margin-right: 1.3rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.container .top h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: var(--ion-color-app_dark);
+}
+
+.container ion-searchbar.md {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0;
+    padding-right:0.8rem;
+    padding-left:0.8rem;
+    border: 0.1rem solid var(--ion-color-app_dark);
+    border-radius: 1rem;
+    --box-shadow: 0;
+}
+
+.container .receipts * {
+    --box-shadow: 0px;
+    box-shadow: 0px;
+}
+
+.container .receipts ion-card {
+    --background: var(--ion-color-app_darker_background);
+    border: 0;
+    border-radius: 0.5rem;
+    --box-shadow: 0px;
+}
+
+.container .receipts img {
+    object-fit:cover;
+    width: 100%;
+    height: 8rem;
+}
+
+.container .receipts ion-card-header {
+    height: 6rem;
+}
+
+.container .receipts ion-card-title {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--ion-color-app_dark)
+}
+
+.container .receipts ion-card-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}

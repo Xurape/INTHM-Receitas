@@ -1,21 +1,21 @@
 <ion-tabs (ionTabsDidChange)="setCurrentTab($event)">
   <ion-tab-bar slot="bottom" color="app_darker_background">
-    <ion-tab-button tab="inicio" href="/inicio">
+    <ion-tab-button tab="inicio" (click)="redirect('inicio')">
       <ion-icon name="home-sharp" [color]="current_tab == 'inicio' ? 'app_primary' : 'app_dark'"></ion-icon>
       <ion-label [color]="current_tab == 'inicio' ? 'app_primary' : 'app_dark'">Inicio</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="receitas" href="/receitas">
+    <ion-tab-button tab="receitas" (click)="redirect('receitas')">
       <ion-icon name="receipt-sharp" [color]="current_tab == 'receitas' ? 'app_primary' : 'app_dark'"></ion-icon>
       <ion-label [color]="current_tab == 'receitas' ? 'app_primary' : 'app_dark'">Receitas</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="historia" href="/historia">
+    <ion-tab-button tab="historia" (click)="redirect('historia')">
       <ion-icon name="book-sharp" [color]="current_tab == 'historia' ? 'app_primary' : 'app_dark'"></ion-icon>
       <ion-label [color]="current_tab == 'historia' ? 'app_primary' : 'app_dark'">História</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="sobre" href="/sobre">
+    <ion-tab-button tab="sobre" (click)="redirect('sobre')">
       <ion-icon name="alert-circle-sharp" [color]="current_tab == 'sobre' ? 'app_primary' : 'app_dark'"></ion-icon>
       <ion-label [color]="current_tab == 'sobre' ? 'app_primary' : 'app_dark'">Sobre</ion-label>
     </ion-tab-button>
