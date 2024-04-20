@@ -8,7 +8,7 @@
         <h4>Conheça as nossas receitas mais famosas</h4>
       </div>
       <div class="center">
-        <ion-list class="receipts">
+        <ion-list class="recipes">
           <ion-item button detail="true" *ngFor="let item of local_recipes" router-direction="forward" routerLink="/receitas/{{item.id}}">
             <ion-avatar aria-hidden="true" slot="start">
               <img alt="" src={{item.image}} />
