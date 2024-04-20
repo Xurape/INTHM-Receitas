@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.container * {
+    color: var(--ion-color-app_dark);
+}
+
+.container .recipe_image {
+    width: 100%;
+}
+
+.container img {
+    height: 12rem;
+    width: 100%;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.container .recipe_instructions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.container .recipe_instructions .recipe_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.container .recipe_instructions .recipe_title_container {
+    width: 100%;
+    background-color: var(--ion-color-app_primary);
+    padding: 0.4rem 0 0.4rem 0;
+    border-radius: 0.7rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.container .recipe_instructions .recipe_title {
+    font-size: 1.2rem;
+    width: 100%;
+    color: var(--ion-color-light);
+}
+
+.container .recipe_instructions .recipe_description {
+    font-size: large;
+    color: var(--ion-color-app_secondary);
+    margin-left: 1.4rem;
+}
+
+.container .recipe_instructions .recipe_description.difficulty {
+    text-transform: capitalize;
+}
+
+.container .recipe_instructions .recipe_ingredient {
+    font-size: large;
+}
+
+.container .recipe_instructions .recipe_ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.3rem;
+}
+
+.container .recipe_instructions .recipe_preparation {
+    font-size: large;
+}

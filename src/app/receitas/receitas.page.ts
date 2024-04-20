@@ -16,9 +16,16 @@ export class ReceitasPage implements OnInit {
     this.recipes = recipes;
   }
 
+  public getRecipes() {
+    let categories = ["fácil", "médio", "difícil"];
+    this.recipes = this.recipes.sort((a: any, b: any) => categories.indexOf(a.difficulty) - categories.indexOf(b.difficulty));
+
+    return this.recipes;
+  }
+
   public filterRecipes(event: any) {
     const searchTerm = event.target.value.toLowerCase();
-    
+
     this.recipes = recipes.filter((recipe: any) => {
       return recipe.name.toLowerCase().includes(searchTerm);
     });

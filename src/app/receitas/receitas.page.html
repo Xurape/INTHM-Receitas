@@ -18,7 +18,7 @@
     <ion-searchbar placeholder="Procurar receita" (ionInput)="filterRecipes($event)"></ion-searchbar>
     <ion-grid class="receipts">
       <ion-row>
-        <ion-col *ngFor="let item of recipes" class="receipt-card-col">
+        <ion-col *ngFor="let item of getRecipes()" class="receipt-card-col">
           <ion-card class="receipt-card" type="button" routerLink='/receitas/{{item.id}}'>
           <img alt={{item.name}} src={{item.image}} />
             <ion-card-header>

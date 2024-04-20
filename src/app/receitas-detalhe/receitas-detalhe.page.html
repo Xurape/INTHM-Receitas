@@ -16,4 +16,56 @@
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
+
+  <div class="container">
+    <div class="recipe_image">
+      <img src={{recipe.image}} alt={{recipe.name}} />
+    </div>
+    <div class="recipe_instructions">
+      <div id="#difficulty" class="recipe_section">
+        <div class="recipe_title_container">
+          <a class="recipe_title">Dificuldade</a>
+        </div>
+        <a class="recipe_description difficulty">{{recipe.difficulty}}</a>
+      </div>
+      <div id="#duration" class="recipe_section">
+        <div class="recipe_title_container">
+          <a class="recipe_title">Duração</a>
+        </div>
+        <a class="recipe_description">{{recipe.duration}}</a>
+      </div>
+      <div id="#ingredients" class="recipe_section">
+        <div class="recipe_title_container">
+          <a class="recipe_title">Ingredientes</a>
+        </div>
+        <div class="recipe_ingredients">
+          <ul>
+            <li class="recipe_ingredient" *ngFor="let ingredient of recipe.ingredients">{{ingredient}}</li>
+          </ul>
+        </div>
+      </div>
+      <div id="#preparation" class="recipe_section">
+        <div class="recipe_title_container">
+          <a class="recipe_title">Preparação</a>
+        </div>
+        <div class="recipe_preparations">
+          <ol>
+            <li class="recipe_preparation" *ngFor="let preparation of recipe.preparation">{{preparation}}<br /></li>
+          </ol>
+        </div>
+      </div>
+      <div id="#history" class="recipe_section">
+        <div class="recipe_title_container">
+          <a class="recipe_title">História</a>
+        </div>
+        <a class="recipe_description">{{recipe.history}}</a>
+      </div>
+      <div id="#origin" class="recipe_section">
+        <div class="recipe_title_container">
+          <a class="recipe_title">Origem</a>
+        </div>
+        <a class="recipe_description">{{recipe.origin}}</a>
+      </div>
+    </div>
+  </div>
 </ion-content>
