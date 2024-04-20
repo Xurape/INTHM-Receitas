@@ -3,6 +3,7 @@ export const recipes = [
         id: "pao_com_chourico",
         name: 'Pão com chouriço',
         difficulty: "fácil",
+        category: "entradas",
         image: '../assets/img/receitas/pao_com_chourico.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
@@ -25,6 +26,7 @@ export const recipes = [
         id: "bacalhau_a_bras",
         name: 'Bacalhau à Brás',
         difficulty: "médio",
+        category: "prato principal",
         image: '../assets/img/receitas/bacalhau_a_bras.jpg',
         duration: "40 minutos",
         ingredients: [
@@ -53,6 +55,7 @@ export const recipes = [
         id: "caldo_verde",
         name: 'Caldo Verde',
         difficulty: "fácil",
+        category: "entradas",
         image: '../assets/img/receitas/caldo_verde.jpg',
         duration: "40 minutos",
         ingredients: [
@@ -78,6 +81,7 @@ export const recipes = [
         id: "arroz_de_pato",
         name: 'Arroz de Pato',
         difficulty: "difícil",
+        category: "prato principal",
         image: '../assets/img/receitas/arroz_de_pato.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
@@ -105,6 +109,7 @@ export const recipes = [
         id: "francesinha",
         name: 'Francesinha',
         difficulty: "difícil",
+        category: "prato principal",
         image: '../assets/img/receitas/francesinha.jpg',
         duration: "1 hora",
         ingredients: [

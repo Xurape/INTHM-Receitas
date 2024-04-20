@@ -1,43 +1,6 @@
-/* Global Styles */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: var(--ion-font-family);
-    font-size: 1rem;
-    line-height: 1.5;
-    color: var(--ion-color-text);
-    background-color: var(--ion-color-background);
-}
-
-/* Typography */
-
+/** Some variables to assist me **/
 .bold {
     font-weight: bolder;
-}
-
-.overline {
-    font-size: 0.8rem;
-    font-weight: light;
-    color: var(--ion-color-app_dark);
-    letter-spacing: 0.01rem;
-    text-transform: uppercase;
-}
-
-/* Containers */
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 100%;
-    height: auto;
 }
 
 .center {
@@ -50,7 +13,17 @@ body {
     height: auto;
 }
 
-/* Page-related Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+/** Page-related **/
 
 .app_name {
     font-size: 2rem;
@@ -81,6 +54,14 @@ body {
     padding-left: 1.3rem;
     padding-right: 1.7rem;
     width: 100%;
+}
+
+.overline {
+    font-size: 0.8rem;
+    font-weight: light;
+    color: var(--ion-color-app_dark);
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
 }
 
 .button {

@@ -8,7 +8,6 @@
     
     ion-searchbar.md {
         width: 100%;
-        margin-top: 1rem;
         padding: 0;
         padding-right:0.8rem;
         padding-left:0.8rem;
@@ -16,6 +15,17 @@
         border-radius: 1rem;
         --box-shadow: 0;
     }
+
+    .filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.9rem 0 0.8rem 0;
+        border: 0.1rem solid var(--ion-color-app_dark);
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
     .top {
         h1 {
             text-align: center;

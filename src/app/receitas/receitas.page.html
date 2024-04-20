@@ -15,10 +15,19 @@
     <div class="top">
       <h1>As melhores receitas num só lugar</h1>
     </div>
-    <ion-searchbar placeholder="Procurar receita" (ionInput)="filterRecipes($event)"></ion-searchbar>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center ion-align-items-center">
+        <ion-col size="10">
+          <ion-searchbar placeholder="Procurar receita" (ionInput)="filterRecipes($event)"></ion-searchbar>
+        </ion-col>
+        <ion-col size="2">
+          <div class="filter" id="filter-button"><ion-icon name="build-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
     <ion-grid class="receipts">
       <ion-row>
-        <ion-col *ngFor="let item of getRecipes()" class="receipt-card-col">
+        <ion-col *ngFor="let item of filterRecipes(null)" class="receipt-card-col">
           <ion-card class="receipt-card" type="button" routerLink='/receitas/{{item.id}}'>
           <img alt={{item.name}} src={{item.image}} />
             <ion-card-header>
@@ -30,4 +39,6 @@
       </ion-row>
     </ion-grid>
   </div>
+  <ion-action-sheet trigger="filter-button" header="Filtrar por" [buttons]="actionSheetButtons" (didDismiss)="filterRecipes($event)">
+  </ion-action-sheet>
 </ion-content>
