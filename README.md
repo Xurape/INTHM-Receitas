@@ -8,9 +8,9 @@
 
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/xurape/INTHM-Receitas">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+  <a href="https://github.com/xurape/INTHM-Receitas">
+    <img src="src/assets/img/cook_1.svg" alt="Logo" width="250" height="250">
+  </a>
 
 <h3 align="center">Receitas Locais</h3>
   <p align="center">
