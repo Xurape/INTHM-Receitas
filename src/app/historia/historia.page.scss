@@ -18,13 +18,13 @@
         height: 100%;
     }
     .middle {
-        p {
-            text-align: center;
-            color: var(--ion-color-app_primary);
-        }
         h2 {
             text-align: center;
             color: var(--ion-color-app_primary);
+        }
+        p {
+            text-align: start;
+            color: var(--ion-color-app_dark);
         }
     }
 }
