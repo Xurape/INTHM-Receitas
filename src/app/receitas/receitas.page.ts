@@ -14,28 +14,24 @@ export class ReceitasPage implements OnInit {
   public actionSheetButtons = [
     {
       text: 'Mais fáceis primeiro',
-      role: 'filter',
       data: {
         filter: 'easyFirst'
       },
     },
     {
       text: 'Entradas primeiro',
-      role: 'filter',
       data: {
         filter: 'startersFirst'
       },
     },
     {
       text: 'Pratos principais primeiro',
-      role: 'filter',
       data: {
         filter: 'mainCoursesFirst'
       },
     },
     {
       text: 'Sobremesas primeiro',
-      role: 'filter',
       data: {
         filter: 'dessertsFirst'
       },
