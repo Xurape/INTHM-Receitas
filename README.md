@@ -4,7 +4,7 @@
     <img src="src/assets/img/cook_1.svg" alt="Logo" width="250" height="250">
   </a>
 
-<h3 align="center">Receitas Locais</h3>
+<h3 align="center">FamaCook</h3>
   <p align="center">
     Uma aplicação realizada em Ionic para a disciplina de INTHM do curso de Engenharia Informática do Instituto Politécnico de Viana do Castelo.
   </p>
