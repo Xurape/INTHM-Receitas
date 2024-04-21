@@ -20,13 +20,6 @@ export class ReceitasPage implements OnInit {
       },
     },
     {
-      text: 'Doces primeiro',
-      role: 'filter',
-      data: {
-        filter: 'sweetsFirst'
-      },
-    },
-    {
       text: 'Entradas primeiro',
       role: 'filter',
       data: {
@@ -72,12 +65,9 @@ export class ReceitasPage implements OnInit {
 
         switch(filter) {
           case 'easyFirst':
-            let categories = ["fácil", "médio", "difícil"];
+            let categories = ["fácil", "média", "difícil"];
             this.recipes = this.recipes.sort((a: any, b: any) => categories.indexOf(a.difficulty) - categories.indexOf(b.difficulty));
         
-            break;
-          case 'sweetsFirst':
-            this.recipes.sort((a: any, b: any) => (a.category === "doces" ? -1 : 1));
             break;
           case 'startersFirst':
             this.recipes.sort((a: any, b: any) => (a.category === "entradas" ? -1 : 1));
