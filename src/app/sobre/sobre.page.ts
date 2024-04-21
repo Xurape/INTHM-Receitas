@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import { version } from '../../../package.json';
 import packageJson from '../../../package.json';
 
 @Component({
