@@ -215,25 +215,25 @@ export const recipes = [
         image: '../assets/img/receitas/cozido_a_portuguesa.jpg',
         duration: "2 horas",
         ingredients: [
-        "500g de carne de vaca",
-        "500g de carne de porco",
-        "1 chouriço de carne",
-        "1 farinheira",
-        "1 morcela",
-        "1 couve portuguesa",
-        "2 cenouras",
-        "2 batatas",
-        "1 nabo",
-        "Sal q.b."
+            "500g de carne de vaca",
+            "500g de carne de porco",
+            "1 chouriço de carne",
+            "1 farinheira",
+            "1 morcela",
+            "1 couve portuguesa",
+            "2 cenouras",
+            "2 batatas",
+            "1 nabo",
+            "Sal q.b."
         ],
         preparation: [
-        "Coloque as carnes numa panela com água a ferver e coza durante 1 hora.",
-        "Adicione as restantes carnes e os legumes cortados em pedaços.",
-        "Deixe cozinhar por mais 30 minutos.",
-        "Sirva bem quente."
+            "Coloque as carnes numa panela com água a ferver e coza durante 1 hora.",
+            "Adicione as restantes carnes e os legumes cortados em pedaços.",
+            "Deixe cozinhar por mais 30 minutos.",
+            "Sirva bem quente."
         ],
-        "origin": "O cozido à portuguesa é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "history": "O cozido à portuguesa teve origem em Portugal, mais precisamente na região do Minho. A receita foi criada por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "A origem do cozido à portuguesa não é a região do Minho, mas sim diversas regiões do país, com cada região tendo suas próprias variações.",
+        history: "A história do cozido à portuguesa remonta à Idade Média, quando era um prato popular entre os camponeses, que utilizavam as sobras de carne e legumes para preparar uma refeição completa."
     },
     {
         id: "frango_assado",
@@ -243,19 +243,19 @@ export const recipes = [
         image: '../assets/img/receitas/frango_assado.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
-        "1 frango inteiro",
-        "4 dentes de alho picados",
-        "Sumo de 1 limão",
-        "2 colheres de sopa de manteiga derretida",
-        "Sal e pimenta q.b."
+            "1 frango inteiro",
+            "4 dentes de alho picados",
+            "Sumo de 1 limão",
+            "2 colheres de sopa de manteiga derretida",
+            "Sal e pimenta q.b."
         ],
         preparation: [
-        "Tempere o frango com sal, pimenta, alho e sumo de limão.",
-        "Regue com a manteiga derretida.",
-        "Asse no forno preaquecido a 180°C por 1 hora ou até dourar."
+            "Tempere o frango com sal, pimenta, alho e sumo de limão.",
+            "Regue com a manteiga derretida.",
+            "Asse no forno preaquecido a 180°C por 1 hora ou até dourar."
         ],
-        "origin": "O frango assado é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "history": "O frango assado teve origem em Portugal, mais precisamente na região do Minho. A receita foi criada por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "A origem do frango assado não é a região do Minho, mas sim diversas regiões do país, com cada região tendo suas próprias variações.",
+        history: "O frango assado é um prato popular em Portugal desde a época romana, quando era consumido em ocasiões especiais."
     },
     {
         id: "frango_churrasco",
@@ -265,19 +265,19 @@ export const recipes = [
         image: '../assets/img/receitas/frango_no_churrasco.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
-        "1 frango inteiro cortado em pedaços",
-        "4 dentes de alho picados",
-        "Sumo de 2 limões",
-        "1/4 de xícara de azeite",
-        "Sal, pimenta e colorau q.b."
+            "1 frango inteiro cortado em pedaços",
+            "4 dentes de alho picados",
+            "Sumo de 2 limões",
+            "1/4 de xícara de azeite",
+            "Sal, pimenta e colorau q.b."
         ],
         preparation: [
-        "Tempere o frango com alho, sumo de limão, sal, pimenta e colorau.",
-        "Regue com azeite e deixe marinar por pelo menos 1 hora.",
-        "Grelhe os pedaços de frango até ficarem dourados e cozidos por dentro."
+            "Tempere o frango com alho, sumo de limão, sal, pimenta e colorau.",
+            "Regue com azeite e deixe marinar por pelo menos 1 hora.",
+            "Grelhe os pedaços de frango até ficarem dourados e cozidos por dentro."
         ],
-        "origin": "O frango no churrasco é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "history": "Frango no churrasco foi criado por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "A origem do frango no churrasco teve origem na cultura do churrasco, que é muito popular em Portugal, especialmente no verão.",
+        history: "O churrasco é uma tradição culinária que remonta à época pré-histórica, quando os humanos cozinhavam carne em fogo aberto."
     },
     {
         id: "arroz_cabidela",
@@ -287,26 +287,26 @@ export const recipes = [
         image: '../assets/img/receitas/arroz_de_cabidela.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
-        "1 frango",
-        "300g de arroz",
-        "1 cebola",
-        "2 dentes de alho",
-        "100ml de vinagre",
-        "100ml de sangue de galinha",
-        "Azeite, sal e pimenta q.b."
+            "1 frango",
+            "300g de arroz",
+            "1 cebola",
+            "2 dentes de alho",
+            "100ml de vinagre",
+            "100ml de sangue de galinha",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Coza o frango em água temperada com sal.",
-        "Retire o frango e reserve o caldo.",
-        "Desfie o frango e reserve.",
-        "Num tacho, refogue a cebola e o alho picados em azeite.",
-        "Adicione o frango desfiado, o vinagre e o sangue de galinha.",
-        "Deixe cozinhar por alguns minutos.",
-        "Junte o arroz e adicione o caldo reservado.",
-        "Deixe cozinhar até o arroz ficar pronto."
+            "Coza o frango em água temperada com sal.",
+            "Retire o frango e reserve o caldo.",
+            "Desfie o frango e reserve.",
+            "Num tacho, refogue a cebola e o alho picados em azeite.",
+            "Adicione o frango desfiado, o vinagre e o sangue de galinha.",
+            "Deixe cozinhar por alguns minutos.",
+            "Junte o arroz e adicione o caldo reservado.",
+            "Deixe cozinhar até o arroz ficar pronto."
         ],
-        "history": "O arroz de cabidela é uma receita tradicional portuguesa que remonta ao tempo da colonização. É um prato muito apreciado e é frequentemente associado a celebrações e eventos especiais.",
-        "origin": "O arroz de cabidela é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares."
+        history: "O arroz de cabidela é uma receita tradicional portuguesa que remonta ao tempo da colonização. É um prato muito apreciado e é frequentemente associado a celebrações e eventos especiais.",
+        origin: "O arroz de cabidela teve origem nas as regiões do interior do país, onde a caça era uma atividade comum."
     },
     {
         id: "coelho_cacador",
@@ -316,25 +316,25 @@ export const recipes = [
         image: '../assets/img/receitas/coelho_a_cacador.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
-        "1 coelho cortado em pedaços",
-        "2 cebolas",
-        "4 dentes de alho",
-        "200ml de vinho tinto",
-        "200ml de caldo de carne",
-        "100g de bacon",
-        "100g de cogumelos",
-        "Azeite, sal e pimenta q.b."
+            "1 coelho cortado em pedaços",
+            "2 cebolas",
+            "4 dentes de alho",
+            "200ml de vinho tinto",
+            "200ml de caldo de carne",
+            "100g de bacon",
+            "100g de cogumelos",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Tempere o coelho com sal e pimenta.",
-        "Numa panela, aqueça o azeite e doure os pedaços de coelho.",
-        "Adicione a cebola, o alho, o bacon e os cogumelos.",
-        "Refogue por alguns minutos.",
-        "Regue com o vinho tinto e o caldo de carne.",
-        "Deixe cozinhar por cerca de 1 hora ou até o coelho ficar macio."
+            "Tempere o coelho com sal e pimenta.",
+            "Numa panela, aqueça o azeite e doure os pedaços de coelho.",
+            "Adicione a cebola, o alho, o bacon e os cogumelos.",
+            "Refogue por alguns minutos.",
+            "Regue com o vinho tinto e o caldo de carne.",
+            "Deixe cozinhar por cerca de 1 hora ou até o coelho ficar macio."
         ],
-        "origin": "O coelho à caçador é um prato tradicional da culinária portuguesa, originário das regiões do interior do país, onde a caça é uma atividade comum.",
-        "history": "O coelho à caçador foi criado por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "A origem do coelho à caçador é as regiões do interior do país, onde a caça era uma atividade comum.",
+        history: "O coelho à caçador é um prato tradicional que remonta à época medieval, quando era consumido pelos caçadores após a caça."
     },
     {
         id: "lombo_assado_batatas",
@@ -344,21 +344,21 @@ export const recipes = [
         image: '../assets/img/receitas/lombo_assado.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
-        "1 kg de lombo de porco",
-        "1 kg de batatas",
-        "4 dentes de alho",
-        "1 cebola",
-        "1 ramo de alecrim",
-        "Azeite, sal e pimenta q.b."
+            "1 kg de lombo de porco",
+            "1 kg de batatas",
+            "4 dentes de alho",
+            "1 cebola",
+            "1 ramo de alecrim",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Tempere o lombo com sal, pimenta, alho picado e alecrim.",
-        "Descasque as batatas e corte-as em cubos.",
-        "Disponha o lombo e as batatas numa assadeira.",
-        "Regue com azeite e leve ao forno preaquecido a 180°C por 1 hora ou até dourar."
+            "Tempere o lombo com sal, pimenta, alho picado e alecrim.",
+            "Descasque as batatas e corte-as em cubos.",
+            "Disponha o lombo e as batatas numa assadeira.",
+            "Regue com azeite e leve ao forno preaquecido a 180°C por 1 hora ou até dourar."
         ],
-        "origin": "O lombo assado com batatas é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "history": "O lombo assado foi criado por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "A origem do lombo assado com batatas vem das diversas regiões do país, com cada região tendo suas próprias variações.",
+        history: "O lombo assado com batatas é um prato popular em Portugal desde a época medieval, quando era consumido em ocasiões especiais."
     },
     {
         id: "vitela_assada_batatas",
@@ -368,22 +368,22 @@ export const recipes = [
         image: '../assets/img/receitas/vitela_assada.jpg',
         duration: "2 horas",
         ingredients: [
-        "1 kg de vitela para assar",
-        "1 kg de batatas",
-        "2 cebolas",
-        "4 dentes de alho",
-        "1 copo de vinho branco",
-        "Sumo de 1 limão",
-        "Azeite, sal e pimenta q.b."
+            "1 kg de vitela para assar",
+            "1 kg de batatas",
+            "2 cebolas",
+            "4 dentes de alho",
+            "1 copo de vinho branco",
+            "Sumo de 1 limão",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Tempere a vitela com sal, pimenta, alho picado, sumo de limão e vinho branco.",
-        "Descasque as batatas e corte-as em rodelas.",
-        "Numa assadeira, coloque a vitela e as batatas.",
-        "Regue com azeite e leve ao forno preaquecido a 180°C por 2 horas ou até dourar."
+            "Tempere a vitela com sal, pimenta, alho picado, sumo de limão e vinho branco.",
+            "Descasque as batatas e corte-as em rodelas.",
+            "Numa assadeira, coloque a vitela e as batatas.",
+            "Regue com azeite e leve ao forno preaquecido a 180°C por 2 horas ou até dourar."
         ],
-        "history": "A vitela assada com batatas é um prato tradicional da gastronomia portuguesa, especialmente apreciado em festas e celebrações familiares.",
-        "origin": "A vitela assada com batatas é um prato tradicional da gastronomia portuguesa, especialmente apreciado em festas e celebrações familiares."
+        origin: "A vitela assada com batatas vem de diversas regiões do país, com cada região tendo suas próprias variações.",
+        history: "A vitela assada com batatas é um prato tradicional da gastronomia portuguesa, especialmente apreciado em festas e celebrações familiares.",
     },
     {
         id: "salada_russa",
@@ -393,21 +393,21 @@ export const recipes = [
         image: '../assets/img/receitas/salada_russa.jpg',
         duration: "30 minutos",
         ingredients: [
-        "500g de batatas",
-        "3 cenouras",
-        "200g de ervilhas",
-        "3 ovos cozidos",
-        "150g de maionese",
-        "Sal e pimenta q.b."
+            "500g de batatas",
+            "3 cenouras",
+            "200g de ervilhas",
+            "3 ovos cozidos",
+            "150g de maionese",
+            "Sal e pimenta q.b."
         ],
         preparation: [
-        "Coza as batatas, as cenouras e as ervilhas em água temperada com sal.",
-        "Descasque e corte em cubos as batatas, as cenouras e os ovos.",
-        "Numa tigela, misture os legumes, os ovos e a maionese.",
-        "Tempere com sal e pimenta a gosto."
+            "Coza as batatas, as cenouras e as ervilhas em água temperada com sal.",
+            "Descasque e corte em cubos as batatas, as cenouras e os ovos.",
+            "Numa tigela, misture os legumes, os ovos e a maionese.",
+            "Tempere com sal e pimenta a gosto."
         ],
-        "origin": "A salada russa é um prato tradicional da culinária portuguesa, muito apreciado no verão devido à sua frescura e sabor.",
-        "history": "A salada russa é um prato tradicional da culinária portuguesa, muito apreciado no verão devido à sua frescura e sabor."
+        origin: "A salada russa é um prato tradicional da Rússia, de onde foi introduzida em Portugal no final do século XIX.",
+        history: "A salada russa é um prato tradicional da culinária portuguesa, muito apreciado no verão devido à sua frescura e sabor."
     },
     {
         id: "massa_lavrador",
@@ -417,23 +417,23 @@ export const recipes = [
         image: '../assets/img/receitas/massa_a_lavrador.jpg',
         duration: "40 minutos",
         ingredients: [
-        "500g de massa (à escolha)",
-        "200g de bacon",
-        "200g de chouriço",
-        "1 cebola",
-        "2 dentes de alho",
-        "1 lata pequena de tomate pelado",
-        "Azeite, sal e pimenta q.b."
+            "500g de massa (à escolha)",
+            "200g de bacon",
+            "200g de chouriço",
+            "1 cebola",
+            "2 dentes de alho",
+            "1 lata pequena de tomate pelado",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Coza a massa em água temperada com sal.",
-        "Numa frigideira, aqueça o azeite e doure o bacon e o chouriço cortados em cubos.",
-        "Adicione a cebola e o alho picados e deixe refogar.",
-        "Junte o tomate pelado e deixe cozinhar por alguns minutos.",
-        "Escorra a massa e envolva no molho."
+            "Coza a massa em água temperada com sal.",
+            "Numa frigideira, aqueça o azeite e doure o bacon e o chouriço cortados em cubos.",
+            "Adicione a cebola e o alho picados e deixe refogar.",
+            "Junte o tomate pelado e deixe cozinhar por alguns minutos.",
+            "Escorra a massa e envolva no molho."
         ],
-        "origin": "A massa à lavrador é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "history": "Massa à lavrador foi criado por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "A massa à lavrador é um prato tradicional das regiões do interior do país, onde era um prato típico dos trabalhadores do campo.",
+        history: "A massa à lavrador é um prato tradicional que remonta ao século XIX, quando era um prato comum entre os trabalhadores do campo."
     },
     {
         id: "entrecosto_assado",
@@ -443,18 +443,18 @@ export const recipes = [
         image: '../assets/img/receitas/entrecosto_assado.jpg',
         duration: "1 hora e 30 minutos",
         ingredients: [
-        "1 kg de entrecosto",
-        "4 dentes de alho picados",
-        "Sumo de 1 limão",
-        "Pimentão doce, sal e pimenta q.b."
+            "1 kg de entrecosto",
+            "4 dentes de alho picados",
+            "Sumo de 1 limão",
+            "Pimentão doce, sal e pimenta q.b."
         ],
         preparation: [
-        "Tempere o entrecosto com alho, sumo de limão, pimentão doce, sal e pimenta.",
-        "Deixe marinar por pelo menos 1 hora.",
-        "Asse no forno preaquecido a 180°C por 1 hora ou até dourar."
+            "Tempere o entrecosto com alho, sumo de limão, pimentão doce, sal e pimenta.",
+            "Deixe marinar por pelo menos 1 hora.",
+            "Asse no forno preaquecido a 180°C por 1 hora ou até dourar."
         ],
-        "history": "O entrecosto assado é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "origin": "O entrecosto assado é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares."
+        origin: "O entrecosto assado é um prato que vem das diversas regiões do país, com cada região tendo suas próprias variações.",
+        history: "O entrecosto assado é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares."
     },
     {
         id: "strogonof",
@@ -464,25 +464,25 @@ export const recipes = [
         image: '../assets/img/receitas/strogonof.jpg',
         duration: "40 minutos",
         ingredients: [
-        "500g de carne (vaca, frango ou porco)",
-        "1 cebola",
-        "2 dentes de alho",
-        "200g de cogumelos",
-        "1 lata pequena de tomate pelado",
-        "200ml de natas",
-        "Azeite, sal e pimenta q.b."
+            "500g de carne (vaca, frango ou porco)",
+            "1 cebola",
+            "2 dentes de alho",
+            "200g de cogumelos",
+            "1 lata pequena de tomate pelado",
+            "200ml de natas",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Corte a carne em tiras finas.",
-        "Numa frigideira, aqueça o azeite e refogue a cebola e o alho picados.",
-        "Adicione a carne e deixe dourar.",
-        "Junte os cogumelos e o tomate pelado picado.",
-        "Deixe cozinhar por alguns minutos.",
-        "Adicione as natas e deixe apurar.",
-        "Tempere com sal e pimenta a gosto."
+            "Corte a carne em tiras finas.",
+            "Numa frigideira, aqueça o azeite e refogue a cebola e o alho picados.",
+            "Adicione a carne e deixe dourar.",
+            "Junte os cogumelos e o tomate pelado picado.",
+            "Deixe cozinhar por alguns minutos.",
+            "Adicione as natas e deixe apurar.",
+            "Tempere com sal e pimenta a gosto."
         ],
-        "origin": "O strogonof é um prato de origem russa que foi adaptado e popularizado em todo o mundo. A receita original é feita com carne de vaca, mas existem várias versões com frango, porco e até camarão.",
-        "history": "O strogonof é um prato muito apreciado em Portugal, especialmente em festas e celebrações familiares."
+        origin: "O strogonof é um prato de origem russa que foi adaptado e popularizado em todo o mundo. A receita original é feita com carne de vaca, mas existem várias versões com frango, porco e até camarão.",
+        history: "O strogonof é um prato muito apreciado em Portugal, especialmente em festas e celebrações familiares."
     },
     {
         id: "feijoada",
@@ -492,26 +492,26 @@ export const recipes = [
         image: '../assets/img/receitas/feijoada.jpg',
         duration: "2 horas",
         ingredients: [
-        "300g de feijão preto",
-        "200g de entrecosto",
-        "200g de carne de porco",
-        "200g de chouriço de carne",
-        "200g de farinheira",
-        "1 cebola",
-        "2 dentes de alho",
-        "1 folha de louro",
-        "Azeite, sal e pimenta q.b."
+            "300g de feijão preto",
+            "200g de entrecosto",
+            "200g de carne de porco",
+            "200g de chouriço de carne",
+            "200g de farinheira",
+            "1 cebola",
+            "2 dentes de alho",
+            "1 folha de louro",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Deixe o feijão de molho em água por algumas horas.",
-        "Numa panela de pressão, coza o feijão com a folha de louro.",
-        "Numa frigideira, aqueça o azeite e refogue a cebola e o alho picados.",
-        "Adicione as carnes cortadas em pedaços e deixe dourar.",
-        "Junte as carnes ao feijão cozido e deixe cozinhar por mais 30 minutos.",
-        "Sirva bem quente."
+            "Deixe o feijão de molho em água por algumas horas.",
+            "Numa panela de pressão, coza o feijão com a folha de louro.",
+            "Numa frigideira, aqueça o azeite e refogue a cebola e o alho picados.",
+            "Adicione as carnes cortadas em pedaços e deixe dourar.",
+            "Junte as carnes ao feijão cozido e deixe cozinhar por mais 30 minutos.",
+            "Sirva bem quente."
         ],
-        "origin": "A feijoada tem origem na região do Minho, mais precisamente na cidade de Braga. A receita foi criada por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes.",
-        "history": "A feijoada é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares."
+        origin: "A feijoada tem origem na região do Minho, mais precisamente na cidade de Braga. A receita foi criada por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes.",
+        history: "A feijoada é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares."
     },
     {
         id: "frango_pucara",
@@ -521,23 +521,23 @@ export const recipes = [
         image: '../assets/img/receitas/frango_na_pucara.jpg',
         duration: "1 hora",
         ingredients: [
-        "1 frango",
-        "1 cebola",
-        "2 dentes de alho",
-        "200ml de vinho branco",
-        "200ml de caldo de galinha",
-        "100g de cogumelos",
-        "Azeite, sal e pimenta q.b."
+            "1 frango",
+            "1 cebola",
+            "2 dentes de alho",
+            "200ml de vinho branco",
+            "200ml de caldo de galinha",
+            "100g de cogumelos",
+            "Azeite, sal e pimenta q.b."
         ],
         preparation: [
-        "Corte o frango em pedaços e tempere com sal e pimenta.",
-        "Numa púcara ou panela de barro, aqueça o azeite e doure o frango.",
-        "Adicione a cebola e o alho picados e deixe refogar.",
-        "Regue com o vinho branco e o caldo de galinha.",
-        "Junte os cogumelos e deixe cozinhar por 40 minutos."
+            "Corte o frango em pedaços e tempere com sal e pimenta.",
+            "Numa púcara ou panela de barro, aqueça o azeite e doure o frango.",
+            "Adicione a cebola e o alho picados e deixe refogar.",
+            "Regue com o vinho branco e o caldo de galinha.",
+            "Junte os cogumelos e deixe cozinhar por 40 minutos."
         ],
-        "origin": "O frango na púcara é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
-        "history": "Frango na púcara foi criado por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
+        origin: "O frango na púcara é um prato tradicional da culinária portuguesa, muito apreciado em festas e celebrações familiares.",
+        history: "Frango na púcara foi criado por um cozinheiro que queria fazer um prato diferente e saboroso para os seus clientes."
     },
     {
         id: "salada_feijao_frade",
@@ -547,19 +547,180 @@ export const recipes = [
         image: '../assets/img/receitas/salada_feijao_frade.jpg',
         duration: "20 minutos",
         ingredients: [
-        "500g de feijão frade cozido",
-        "1 cebola roxa",
-        "1 pimento verde",
-        "1 tomate",
-        "Salsa picada",
-        "Azeite, vinagre, sal e pimenta q.b."
+            "500g de feijão frade cozido",
+            "1 cebola roxa",
+            "1 pimento verde",
+            "1 tomate",
+            "Salsa picada",
+            "Azeite, vinagre, sal e pimenta q.b."
         ],
         preparation: [
-        "Numa tigela, misture o feijão frade cozido com a cebola, o pimento e o tomate cortados em cubos.",
-        "Tempere com azeite, vinagre, sal e pimenta a gosto.",
-        "Polvilhe com salsa picada e sirva."
+            "Numa tigela, misture o feijão frade cozido com a cebola, o pimento e o tomate cortados em cubos.",
+            "Tempere com azeite, vinagre, sal e pimenta a gosto.",
+            "Polvilhe com salsa picada e sirva."
         ],
-        "origin": "A salada de feijão frade é uma receita tradicional da culinária portuguesa, muito apreciada no verão devido à sua frescura e sabor.",
-        "history": "O feijão frade é um ingrediente muito utilizado na gastronomia portuguesa, sendo uma leguminosa rica em proteínas e fibras."
+        origin: "A salada de feijão frade é uma receita tradicional da culinária portuguesa, muito apreciada no verão devido à sua frescura e sabor.",
+        history: "O feijão frade é um ingrediente muito utilizado na gastronomia portuguesa, sendo uma leguminosa rica em proteínas e fibras."
+    },
+    {
+        id: "leite_creme",
+        name: "Leite Creme",
+        difficulty: "média",
+        category: "sobremesa",
+        image: '../assets/img/receitas/leite_creme.jpg',
+        duration: "40 minutos",
+        ingredients: [
+            "1 litro de leite",
+            "6 gemas",
+            "200g de açúcar",
+            "50g de farinha",
+            "Casca de limão",
+            "Canela em pó q.b."
+        ],
+        preparation: [
+            "Num tacho, aqueça o leite com a casca de limão.",
+            "Numa tigela, bata as gemas com o açúcar e a farinha.",
+            "Junte o leite às gemas e mexa bem.",
+            "Leve ao lume e mexa até engrossar.",
+            "Verta o creme em taças e polvilhe com canela em pó."
+        ],
+        origin: "O leite creme é uma receita tradicional da culinária portuguesa, muito apreciada em festas e celebrações familiares.",
+        history: "O leite creme é uma sobremesa muito popular em Portugal, especialmente na época natalícia."
+    },
+    {
+        id: "mousse_de_chocolate",
+        name: "Mousse de Chocolate",
+        difficulty: "fácil",
+        category: "sobremesa",
+        image: '../assets/img/receitas/mousse_de_chocolate.jpg',
+        duration: "1 hora",
+        ingredients: [
+            "200g de chocolate",
+            "6 ovos",
+            "100g de açúcar",
+            "1 pitada de sal"
+        ],
+        preparation: [
+            "Derreta o chocolate em banho-maria.",
+            "Separe as gemas das claras.",
+            "Bata as claras em castelo com uma pitada de sal.",
+            "Bata as gemas com o açúcar até obter um creme.",
+            "Junte o chocolate derretido às gemas e misture bem.",
+            "Envolva as claras no creme de chocolate.",
+            "Verta a mousse em taças e leve ao frigorífico por 1 hora."
+        ],
+        origin: "A mousse de chocolate é uma sobremesa de origem francesa que foi adaptada e popularizada em Portugal.",
+        history: "A mousse de chocolate é uma sobremesa muito popular em Portugal, especialmente entre as crianças."
+    },
+    {
+        id: "gelatina",
+        name: "Gelatina",
+        difficulty: "fácil",
+        category: "sobremesa",
+        image: '../assets/img/receitas/gelatina.jpg',
+        duration: "1 hora",
+        ingredients: [
+            "1 pacote de gelatina",
+            "500ml de água",
+            "Açúcar q.b."
+        ],
+        preparation: [
+            "Prepare a gelatina conforme as instruções da embalagem.",
+            "Adicione açúcar a gosto.",
+            "Verta a gelatina em taças e leve ao frigorífico por 1 hora."
+        ],
+        origin: "A gelatina é uma sobremesa de origem francesa que foi adaptada e popularizada em Portugal.",
+        history: "A gelatina é uma sobremesa muito popular em Portugal, especialmente no verão devido à sua frescura e sabor."
+    },
+    {
+        id: "pudim",
+        name: "Pudim",
+        difficulty: "média",
+        category: "sobremesa",
+        image: '../assets/img/receitas/pudim.jpg',
+        duration: "1 hora",
+        ingredients: [
+            "6 ovos",
+            "200g de açúcar",
+            "500ml de leite",
+            "Caramelo líquido q.b."
+        ],
+        preparation: [
+            "Numa tigela, bata os ovos com o açúcar.",
+            "Adicione o leite e misture bem.",
+            "Verta o caramelo líquido numa forma e adicione o preparado.",
+            "Leve ao forno em banho-maria por 40 minutos."
+        ],
+        origin: "O pudim é uma sobremesa de origem francesa que foi adaptada e popularizada em Portugal.",
+        history: "O pudim é uma sobremesa muito popular em Portugal, especialmente na época natalícia."
+    },
+    {
+        id: "bolo_de_bolacha",
+        name: "Bolo de Bolacha",
+        difficulty: "fácil",
+        category: "sobremesa",
+        image: '../assets/img/receitas/bolo_de_bolacha.jpg',
+        duration: "1 hora",
+        ingredients: [
+            "1 pacote de bolacha maria",
+            "200g de manteiga",
+            "200g de açúcar",
+            "1 café forte",
+            "Cacau em pó q.b."
+        ],
+        preparation: [
+            "Numa tigela, bata a manteiga com o açúcar até obter um creme.",
+            "Molhe as bolachas no café e disponha numa forma.",
+            "Alterne camadas de bolacha e creme até terminar.",
+            "Polvilhe com cacau em pó e leve ao frigorífico por 1 hora."
+        ],
+        origin: "O bolo de bolacha é uma sobremesa de origem francesa que foi adaptada e popularizada em Portugal.",
+        history: "O bolo de bolacha é uma sobremesa muito popular em Portugal, especialmente entre as crianças."
+    },
+    {
+        id: "arroz_doce",
+        name: "Arroz Doce",
+        difficulty: "média",
+        category: "sobremesa",
+        image: '../assets/img/receitas/arroz_doce.jpg',
+        duration: "1 hora",
+        ingredients: [
+            "200g de arroz",
+            "1 litro de leite",
+            "200g de açúcar",
+            "Casca de limão",
+            "Canela em pó q.b."
+        ],
+        preparation: [
+            "Num tacho, aqueça o leite com a casca de limão.",
+            "Adicione o arroz e deixe cozinhar em lume brando até ficar macio.",
+            "Junte o açúcar e mexa bem.",
+            "Verta o arroz doce em taças e polvilhe com canela em pó."
+        ],
+        origin: "O arroz doce é uma sobremesa de origem francesa que foi adaptada e popularizada em Portugal.",
+        history: "O arroz doce é uma sobremesa muito popular em Portugal, especialmente na época natalícia."
+    },
+    {
+        id: "baba_de_camelo",
+        name: "Baba de Camelo",
+        difficulty: "média",
+        category: "sobremesa",
+        image: '../assets/img/receitas/baba_de_camelo.jpg',
+        duration: "1 hora",
+        ingredients: [
+            "1 lata de leite condensado",
+            "6 ovos",
+            "200g de açúcar",
+            "1 pitada de sal"
+        ],
+        preparation: [
+            "Num tacho, misture o leite condensado com as gemas.",
+            "Bata as claras em castelo com uma pitada de sal.",
+            "Adicione o açúcar às claras e bata até obter um merengue.",
+            "Junte o merengue ao creme de gemas e leite condensado.",
+            "Leve ao forno em banho-maria por 40 minutos."
+        ],
+        origin: "A baba de camelo é uma sobremesa de origem francesa que foi adaptada e popularizada em Portugal.",
+        history: "A baba de camelo é uma sobremesa muito popular em Portugal, especialmente na época natalícia."
     }
 ];
